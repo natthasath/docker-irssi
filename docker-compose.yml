@@ -10,6 +10,8 @@ services:
       - "6667:6667"
     networks:
       - default
+    stdin_open: true
+    tty: true
 
 networks:
   default:
