@@ -1,4 +1,4 @@
-ROM ubuntu:latest
+FROM ubuntu:latest
 ENV DEBCONF_NOWARNINGS="yes"
 RUN apt-get update && apt-get install -y nocache irssi --reinstall ca-certificates
 RUN groupadd irssi && useradd -ms /bin/sh -g irssi irssi
