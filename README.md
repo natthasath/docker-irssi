@@ -6,13 +6,13 @@ Irssi is a free, open-source, terminal-based IRC client for Unix-like systems. I
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-### 📲 Access IRC
+### 🚀Setup (Access IRC)
 
 ```shell
 docker exec -it container_id irssi
 ```
 
-### 🥈 Run
+### 🏆 Run
 
 ```shell
 docker-compose up -d
